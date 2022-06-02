@@ -23,11 +23,6 @@ android {
     buildFeatures {
         viewBinding true
     }
-    externalNativeBuild {
-        ndkBuild {
-            path 'jni/Android.mk'
-        }
-    }
     namespace 'com.byteidolon.mas.client'
 }
 
