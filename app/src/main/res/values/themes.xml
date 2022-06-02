@@ -1,0 +1,11 @@
+<resources>
+
+    <style name="Theme.MasClient" parent="Theme.AppCompat">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.MasClient.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.MasClient.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+</resources>
